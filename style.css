@@ -12,3 +12,36 @@ header{
     background-color: #e579e6;
     height: 80px;
 }
+
+/* Main Section*/
+.section{
+    background-color: #e1d67a;
+    height: 300px;
+    margin: 20px auto;
+}
+.subsection{
+    background-color:#0085fc;
+}
+.subsection-header{
+    background-color: #b2e6f2;
+    height: 50px;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.col-sx, .col-dx {
+    float: left;
+    width: 20%;
+    background-color: #b2e6f2;
+    height: 400px;
+    margin: 2% 0;
+}
+.col-center{
+    float: left;
+    width: calc(60% - 4%);
+    background-color: #b2e6f2;
+    height:400px ;
+    margin: 2%;
+}
