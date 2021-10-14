@@ -6,25 +6,27 @@
 body{width: 100%;}
 header, main, footer {
     width: 80%;
-    margin: 20px auto;
+    margin: 0 auto;
 }
 header{
     background-color: #e579e6;
-    height: 80px;
+    height: 100px;
+    margin-top: 2% ;
 }
 
 /* Main Section*/
 .section{
     background-color: #e1d67a;
-    height: 300px;
-    margin: 20px auto;
+    height: 400px;
+    margin: 2% auto 0;
 }
 .subsection{
     background-color:#0085fc;
+    margin-top: 2%;
 }
 .subsection-header{
     background-color: #b2e6f2;
-    height: 50px;
+    height: 70px;
 }
 .clearfix::after{
     content: "";
@@ -44,4 +46,11 @@ header{
     background-color: #b2e6f2;
     height:400px ;
     margin: 2%;
+}
+
+/* Footer */
+.footer{
+    height: 40px;
+    background-color: #8801fe;
+    margin: 1% 0;
 }
