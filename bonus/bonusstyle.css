@@ -40,12 +40,26 @@ header, main, footer {
     height: 400px;
     margin: 2% 0;
 }
-div[class*=center] {
+/* div[class*=center] {
     float: left;
     width: 24%;
     background-color: #b2e6f2;
     height:400px ;
     margin: 2% 1%;
+} */
+.col-center-sx {
+    float: left;
+    width: calc(25% - 0.5%);
+    background-color: #b2e6f2;
+    height:400px ;
+    margin: 2% 0.5% 0 1%;
+}
+.col-center-dx{
+    float: left;
+    width: calc(25% - 0.5%);
+    background-color: #b2e6f2;
+    height:400px ;
+    margin: 2% 1% 0 0.5% ;
 }
 
 /* Footer */
